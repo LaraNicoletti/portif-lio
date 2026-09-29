@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Desenvolvedor Web">
+    <meta name="keywords" content="HTML5, semântica, desenvolvimento">
+    <title>Lara C.N</title>
+</head>
+<body style="background-color: #cde0ea;">
+    <header>
+    <h1 style="color: #011a33;">Lara Nicoletti - Estudante de Desenvolvimento de Sistemas.</h1>
+
+    <!-- Navegação interna -->
+      <ul style="list-style-type: circle;">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+    </ul>
+    <br>
+    <hr>
+    </header>
+
+    <!-- Seções para navegação interna -->
+     <!-- Sobre mim -->
+      <section id="sobre">
+    <h2 style="color: #011a33;">Sobre mim</h2>
+
+    <img src="assets/eu - Editado.png" alt="Foto da estudante" width="190" height="215">
+
+    <p style="color: #022446;">Sou estudante de <strong>Desenvolvimento de Sistemas</strong> no SENAI.</p>
+    <p style="color: #022446;"> Tenho conhecimento em <em>HTML</em>, <em>PHP</em> e estou aprendendo <em>JavaScript</em>. </p>
+
+    <br>
+    <h3 style="color: #011a33;"> Minhas habilidades:</h3>
+
+    <ul style="list-style-type: circle;">
+        <li style="color: #022446;">Desenvolvimento Front-End e Design de Interfaces.</li>
+        <li style="color: #022446;">Lógica de Programação e Solução de Problemas.</li>
+        <li style="color: #022446;">Modelagem e Gerenciamento de Bancos de Dados.</li>
+        <li style="color: #022446;">Metodologias Ágeis e Trabalho em Equipe Multi-disciplinar.</li>
+    </ul>
+    </section>
+    <br>
+    <hr>   
+
+    <!-- Meus Projetos -->
+     <section id="projetos">
+     <h2 style="color: #011a33;">Meus Projetos</h2>
+
+     <table border="1" cellpadding="10" cellspacing="0" width="50%">
+        <!-- Cabeçalho da tabela -->
+        <thead>
+            <tr>
+                <th style="color: #011a33;">Projetos</th>
+                <th style="color: #011a33;">Tecnologias</th>
+                <th style="color: #011a33;">Status</th>
+                <th style="color: #011a33;">Link</th>
+            </tr>
+        </thead>
+        <!-- Corpo da tabela -->
+        <tbody>
+            <tr>
+                <td style="color: #022446;">Projeto do Filme</td>
+                <td style="color: #022446;">Vscode, HTML</td>
+                <td style="color: #022446;">Concluído</td>
+                <td style="color: #022446;"><a href="https://github.com/LaraNicoletti/projeto-filme">Ver projeto</a></td>
+            </tr>
+            <tr>
+                <td style="color: #022446;">Gamezone Retrô</td>
+                <td style="color: #022446;">Vscode, HTML</td>
+                <td style="color: #022446;">Concluído</td>
+                <td style="color: #022446;"><a href="https://github.com/LaraNicoletti/gamezone-lojaretro">Ver projeto</a></td>
+            </tr>
+            <tr>
+                <td style="color: #022446;">Exemplos de algoritmos de lógica</td>
+                <td style="color: #022446;">Word, Draw.io, VisualG, Flowgorithm, Git, GitHub Desktop, GitHub, JavaScript, Node.js, prompt-sync</td>
+                <td style="color: #022446;">Concluído</td>
+                <td style="color: #022446;"><a href="https://github.com/LaraNicoletti/algoritmos-logica-exemplos">Ver projeto</a></td>
+            </tr>
+        </tbody>
+        </table>
+            <br>
+            <hr>
+</section>
+        <!-- Contato -->
+         <section id="contato">
+            <h2 style="color: #011a33;"> Entre em contato</h2>
+
+            <form>
+                <fieldset>
+                    <legend style="color: #022446;"> Dados do Contrato </legend>
+                    <br>
+                 
+            <!-- Campo de texto simples -->
+        <label for="nome" style="color: #022446;">Nome Completo:</label><br>
+        <input type="text" id="nome" name="nome" ><br><br>
+
+        <!-- Campo de email com validação -->
+        <label for="email" style="color: #022446;">Email:</label><br>
+        <input type="email" id="email" name="email" required ><br><br>
+
+        <!-- Lista de seleção (select) -->
+        <label for="assunto" style="color: #022446;">Assunto:</label><br>
+        <select id="assunto" name="assunto">
+            <option value="op" style="color: #022446;">Oportunide de trabalho.</option>
+            <option value="ie" style="color: #022446;">Interesse educacional</option>
+            <option value="mg" style="color: #022446;">Outro</option>
+        </select><br><br>
+
+        <!-- Área de texto -->
+        <label for="comentarios">Mensagem:</label><br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea><br><br>
+
+        <!-- Botões do formulário -->
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+
+        </fieldset>
+             </form>
+             </section>
+
+             <footer>
+      <p>&copy; 2026 Meta. Desenvolvimento durante o curso do SENAI.</p>
+            <hr>
+            <address>
+                Contato: <a href="mailto:lara.chiorato@gmail.com">lara.chiorato@gmail.com</a>
+                |
+                <a href="tel:11 97176 5741">11 97176-5741</a>
+            </address>
+            </footer>
+</body>
+</html>
